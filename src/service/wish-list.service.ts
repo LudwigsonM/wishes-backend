@@ -4,7 +4,7 @@ interface Wish {
   name: string;
   type: string;
   isPossible: boolean;
-  priorty: 1 | 2 | 3;
+  priority: 1 | 2 | 3;
 }
 
 export const getWishesCollection = async () => {
